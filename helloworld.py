@@ -13,7 +13,6 @@ botStart = time.time()
 
 #line = LINE()
 #line = LINE("AuthToken")
-line = LINE("EptwLV6S49ZGDOTlUFJ2.h0ePyHFNqguobeI5AfgJ4G.NEbWp26RQhnmI14DkJt74HkGvVgKxSryR/Is480ElSM=")
 #line = LINE("Email","Password")
 line.log("Auth Token : " + str(line.authToken))
 #channelToken = line.getChannelResult()
