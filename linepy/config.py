@@ -43,7 +43,7 @@ class Config(object):
         'DEFAULT': '8.11.0'
     }
 
-    APP_TYPE    = 'IOS'
+    APP_TYPE    = 'WIN10'
     APP_VER     = APP_VERSION[APP_TYPE] if APP_TYPE in APP_VERSION else APP_VERSION['DEFAULT']
     CARRIER     = '51089, 1-0'
     SYSTEM_NAME = 'FEN'
